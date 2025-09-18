@@ -120,8 +120,8 @@ export default function App() {
 
         <div className="grid">
           <select value={network} onChange={(e) => setNetwork(e.target.value)}>
-            <option value="sepolia">🧪 Base Sepolia (Testnet)</option>
-            <option value="mainnet">💰 Base Mainnet</option>
+            <option value="sepolia"> Base Sepolia (Testnet)</option>
+            <option value="mainnet"> Base Mainnet</option>
           </select>
 
           <input
